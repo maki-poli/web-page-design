@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 350px;
+    flex: 1;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    flex-shrink: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    gap: 150px;
+}
+
+.welcome-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+
+.welcome-text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.subtext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.main-img {
+    width: 300px;
+    height: 300px;
+}
+
+.black-cat {
+    width: 300px;
+    height: 300px;
+}
+
+.sign-up {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.second-container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 50px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.four-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.blackcat2, .orange-cat, .gray-cat, .white-cat {
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    display: block;
+    text-align: center;
+    max-width: 200px;
+    color: gray;
+} 
+
+.third-container {
+    height: 400px;
+    width: 100%;
+    padding: 50px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    color: #1f2937;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fourth-container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    gap: 300px;
+    border-radius: 8px;
+}
+
+.modal-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.action-subtext {
+    font-size: 18px;
+}
+
+.second-signup {
+    display: inline-block;
+    text-align: center;
+    background-color: #3882f6; 
+    color: #f9faf8;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    /* border: none */
+    width: 100px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    width: 100%;
+    height: 100px;
+}
